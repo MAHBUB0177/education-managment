@@ -1,0 +1,113 @@
+{% extends './finance-home.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}
+Ledger Statement | MicroFinance Solution
+{% endblock %}
+
+{% block body %}
+
+<body>
+  <!-- .app -->
+  <div class="app">
+    <div class="page">
+
+      <!-- grid column -->
+         <!-- .card -->
+        <div class="card card-fluid">
+          <!-- .card-body -->
+          <div class="card-body">
+            <div class="form-group">
+                  <div class="card card-fluid">
+                    <!-- .card-body -->
+                    <div class="card-body">
+                      <h4 class="card-title">Ledger Statement</h4><!-- .el-example -->
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.ledger_code| as_crispy_field }}
+                          </div>
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.ledger_name | as_crispy_field }}
+                          </div>
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.ledger_balance | as_crispy_field }}
+                          </div>
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.branch_code | as_crispy_field }}
+                          </div>
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.somity_code | as_crispy_field }}
+                          </div>
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.from_date | as_crispy_field }}
+                          </div>
+                          <div class="form-group col-md-3 mb-0">
+                            {{ forms.upto_date | as_crispy_field }}
+                          </div>
+                        </div>
+						  <div>
+						  <button type="button" id="btnSearchStockMst" class="btn btn-primary"> Search Transaction Details</button>
+						  </div>
+                      </form>
+
+                    </div><!-- /.card-body -->
+                  </div><!-- /.card -->
+                </div>
+
+
+                <header class="card-title-bar">
+                  <h3 class="card-title text-center"> Ledger Statement</h3>
+                </header><!-- /.page-title-bar -->
+                <!-- .page-section -->
+                   <!-- .card -->
+                  <div class="card card-fluid">
+                    <!-- .card-body -->
+                    <div class="card-body">
+                      <!-- .table -->
+                      <table id="dt-table-list" class="table dt-responsive nowrap w-100">
+                        <thead>
+                          <tr>
+                            <th> Serial Number</th>
+                            <th> Tran Date </th>
+                            <th> Comments </th>
+                            <th> Credit Amount </th>
+                            <th> Debit Amount</th>
+                            <th> Balance </th>
+                          </tr>
+                        </thead>
+                        <tfoot>
+                          <tr>
+                            <th> Serial Number</th>
+                            <th> Tran Date </th>
+                            <th> Comments </th>
+                            <th> Credit Amount </th>
+                            <th> Debit Amount</th>
+                            <th> Balance </th>
+                          </tr>
+                        </tfoot>
+                      </table><!-- /.table -->
+                    </div><!-- /.card-body -->
+                  </div><!-- /.card -->
+                </div><!-- /.page-section -->
+              </div>
+            </div>
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div>
+    </div>
+  </div>
+
+  {% endblock body %}
+
+  {% block js %}
+  <script src="{% static 'assets/vendor/datatables/jquery.dataTables.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/datatables/extensions/responsive/dataTables.responsive.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/datatables/extensions/responsive/responsive.bootstrap4.min.js' %}"></script>
+  <!-- END PLUGINS JS -->
+  <script src="{% static 'assets/javascript/pages/dataTables.bootstrap.js' %}"></script>
+  <script src="{% static 'assets/javascript/pages/finance/finance-ledgertran-details.js' %}"></script>
+  <!-- END PAGE LEVEL JS -->
+
+  {% endblock %}
+</body>

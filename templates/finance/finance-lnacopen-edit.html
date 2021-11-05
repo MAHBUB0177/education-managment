@@ -1,0 +1,86 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Update Account Information</h4>
+	<!-- .card -->
+	<div class="card">
+		<!-- .card-body -->
+		<div class="card-body">
+			<div>
+				<!--form method="post" novalidate-->
+				<form method="post" id="edit_form" data-url="{% url 'finance-lnacopen-edit' id %}" class="update-form">
+					{% csrf_token %}
+					<div class="form-row">
+
+											<div class="form-group col-md-4 mb-0">
+												{{ form.branch_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.products_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.products_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.account_effective_date|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.phone_number|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.account_title|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.form_number|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.reference_by|as_crispy_field }}
+											</div> 
+											<div class="form-group col-md-4 mb-0">
+												{{ form.credit_limit|as_crispy_field }}
+											</div> 
+											<div class="form-group col-md-4 mb-0">
+												{{ form.number_of_installment|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.installment_amount|as_crispy_field }}
+											</div> 
+											<div class="form-group col-md-4 mb-0">
+												{{ form.total_prin_dr_amount|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.total_int_dr_amount|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.total_charge_dr_amount|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.total_maturity_amount|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0"> 
+												{{ form.interest_rate|as_crispy_field }}
+											</div> 
+											<div class="form-group col-md-4 mb-0">
+												{{ form.account_comments|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.is_account_active|as_crispy_field }}
+											</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+				<button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+			<div>
+			</div>
+		</div>
+	</div>
+	<!-- /.modal-content -->
+</div>
+
+<script src="{% static 'assets/javascript/pages/finance/finance-lnacopen-edit.js' %}"></script>

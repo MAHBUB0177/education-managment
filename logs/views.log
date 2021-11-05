@@ -1,0 +1,74 @@
+19-01-2020:19:31  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:31  WARNING  [django.request: 228]  Not Found: /finacne
+19-01-2020:19:31  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:31  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:31  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\urls.py changed, reloading.
+19-01-2020:19:31  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:31  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\urls.py changed, reloading.
+19-01-2020:19:31  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:32  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:32  WARNING  [django.request: 228]  Not Found: /finacne
+19-01-2020:19:32  WARNING  [django.request: 228]  Not Found: /finance/{% static assets/javascript/pages/particles.json
+19-01-2020:19:32  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\urls.py changed, reloading.
+19-01-2020:19:32  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:32  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:32  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:32  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:32  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:32  WARNING  [django.request: 228]  Not Found: /finance/{% static assets/javascript/pages/particles.json
+19-01-2020:19:32  WARNING  [django.request: 228]  Not Found: /{% static assets/javascript/pages/particles.json
+19-01-2020:19:32  WARNING  [django.request: 228]  Not Found: /{% static assets/javascript/pages/particles.json
+19-01-2020:19:32  WARNING  [django.request: 228]  Not Found: /{% static assets/javascript/pages/particles.json
+19-01-2020:19:33  WARNING  [django.request: 228]  Not Found: /{% static assets/javascript/pages/particles.json
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\urls.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:33  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:33  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:34  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:34  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:34  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:34  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:35  WARNING  [django.request: 228]  Not Found: //finance-products-api/
+19-01-2020:19:35  WARNING  [django.request: 228]  Not Found: /finance-logout/{% static assets/javascript/pages/particles.json
+19-01-2020:19:35  WARNING  [django.request: 228]  Forbidden: /finance-products-api/
+19-01-2020:19:35  WARNING  [django.request: 228]  Forbidden: /finance-products-api/
+19-01-2020:19:35  WARNING  [django.request: 228]  Forbidden: /finance-products-api/
+19-01-2020:19:35  WARNING  [django.request: 228]  Forbidden: /finance-products-api/
+19-01-2020:19:36  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:36  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:36  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:36  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:38  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:38  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:38  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:38  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:38  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:38  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:38  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:38  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:38  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\utils.py changed, reloading.
+19-01-2020:19:38  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:45  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\urls.py changed, reloading.
+19-01-2020:19:45  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:45  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\finance\utils.py changed, reloading.
+19-01-2020:19:45  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:45  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:45  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:45  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:45  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:45  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:45  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader
+19-01-2020:19:45  INFO     [django.utils.autoreload: 222]  E:\pythonvenv\microfinance\microfinance\settings.py changed, reloading.
+19-01-2020:19:45  INFO     [django.utils.autoreload: 598]  Watching for file changes with StatReloader

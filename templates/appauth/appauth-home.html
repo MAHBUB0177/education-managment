@@ -1,0 +1,498 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> {% block title %} Home | {{ application_title }} {% endblock %}
+  </title>
+  <meta property="og:title" content="Dashboard">
+  <meta name="author" content="Peart Technology Limited">
+  <meta property="og:locale" content="en_US">
+  <meta name="description" content="Education ERP (WhiteBoard)">
+  <meta property="og:description" content="Education ERP (WhiteBoard)">
+  <meta property="og:site_name" content="Education ERP (WhiteBoard)">
+  <script type="application/ld+json">
+    </script>
+  <link rel="apple-touch-icon" sizes="144x144" href="{% static 'assets/apple-touch-icon.png' %}">
+  <link rel="shortcut icon" href="{% static 'assets/favicon.ico' %}">
+  <meta name="theme-color" content="#3063A0">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'assets/vendor/open-iconic/css/open-iconic-bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/fontawesome/css/all.css' %}">
+  <link rel="stylesheet"
+    href="{% static 'assets/vendor/datatables/extensions/responsive/responsive.bootstrap4.min.css' %}">
+
+  <link rel="stylesheet" href="{% static 'assets/stylesheets/theme.min.css' %}" data-skin="default">
+  <link rel="stylesheet" href="{% static 'assets/stylesheets/theme-dark.min.css' %}" data-skin="dark">
+  <link rel="stylesheet" href="{% static 'assets/stylesheets/custom.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/vendor/flatpickr/flatpickr.min.css' %}">
+  <script>
+    var skin = localStorage.getItem('skin') || 'default';
+    var unusedLink = document.querySelector('link[data-skin]:not([data-skin="' + skin + '"])');
+    unusedLink.setAttribute('rel', '');
+    unusedLink.setAttribute('disabled', true);
+  </script>
+</head>
+
+<body>
+  <div class="app">
+    <header class="app-header app-header-dark">
+      <div class="top-bar">
+        <div class="top-bar-brand">
+          <a href="{% url 'appauth-home' %}">
+            <svg width="200" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <path
+                  d="m156.538,45.644l0,1.04a6.347,6.347 0 0 1 -1.847,3.98l-26.983,27.006a6.338,6.338 0 0 1 -3.862,1.839l-1.272,0a6.34,6.34 0 0 1 -3.862,-1.839l-26.984,-27.006a6.353,6.353 0 0 1 0,-9l9.11,-9.117l-2.136,-2.138a3.171,3.171 0 0 0 -4.498,0l-13.493,13.504a3.177,3.177 0 0 0 -0.043,4.453l-0.002,0.003l0.048,0.047l24.733,24.754l-4.497,4.5a6.339,6.339 0 0 1 -3.863,1.84l-1.27,0a6.337,6.337 0 0 1 -3.863,-1.84l-26.983,-27.005a6.353,6.353 0 0 1 0,-9l26.983,-27.008a6.336,6.336 0 0 1 4.498,-1.869c1.626,0 3.252,0.622 4.498,1.87l26.986,27.006a6.353,6.353 0 0 1 0,9l-9.11,9.117l2.136,2.138a3.171,3.171 0 0 0 4.498,0l13.49,-13.504a3.177,3.177 0 0 0 0.046,-4.453l0.002,-0.002l-0.047,-0.048l-24.737,-24.754l4.498,-4.5a6.344,6.344 0 0 1 8.996,0l26.983,27.006a6.347,6.347 0 0 1 1.847,3.98zm-46.707,-4.095l-2.362,2.364a3.178,3.178 0 0 0 0,4.501l2.362,2.364l2.361,-2.364a3.178,3.178 0 0 0 0,-4.501l-2.361,-2.364z"
+                  id="a" />
+              </defs>
+              <g>
+                <title>background</title>
+                <rect fill="none" id="canvas_background" height="82" width="202" y="-1" x="-1" />
+              </g>
+              <g>
+                <title></title>
+                <g stroke="null" id="svg_4">
+                  <title
+                    transform="translate(10.971592903137207,7.390244483947754) scale(0.5474544167518616,0.7345335483551025) translate(-10.971592903137207,-7.390244483947754) "
+                    stroke="null" />
+                  <use stroke="null" x="17" y="2.02049"
+                    transform="matrix(0.5474544167518616,0,0,0.72708498283734,4.965145909511364,2.703366699966363) "
+                    id="svg_3" xlink:href="#a" class="fill-warning" />
+                  <text stroke="null" fill="#ffffff" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null"
+                    stroke-linecap="null" x="17.3725" y="39.68749" id="svg_1" font-size="24" font-family="Serif"
+                    text-anchor="middle" xml:space="preserve"
+                    transform="matrix(2.573122913791901,0,0,2.4057628719646504,-16.52865771592052,-36.74046819908677) "
+                    font-weight="bold">S</text>
+                  <text stroke="null" fill="#ffffff" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null"
+                    stroke-linecap="null" x="178.3725" y="35.68749" id="svg_2" font-size="24" font-family="Serif"
+                    text-anchor="middle" xml:space="preserve"
+                    transform="matrix(1.7565606877077597,0,0,2.12454383942287,-169.10264632948585,-17.606876648996526) "
+                    font-weight="bold">ERP</text>
+                </g>
+              </g>
+            </svg> </a>
+        </div>
+        <div class="top-bar-list">
+          <div class="top-bar-item px-2 d-md-none d-lg-none d-xl-none">
+            <button class="hamburger hamburger-squeeze" type="button" data-toggle="aside" aria-label="toggle menu"><span
+                class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+          </div>
+          <div class="top-bar-item top-bar-item-full">
+            <form class="top-bar-search">
+              {% csrf_token %}
+              <div class="input-group input-group-search dropdown">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><span class="oi oi-magnifying-glass"></span></span>
+                </div><input type="text" class="form-control" data-toggle="dropdown" aria-label="Search"
+                  placeholder="Search">
+                <div class="dropdown-menu dropdown-menu-rich dropdown-menu-xl ml-n4">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="top-bar-item top-bar-item-right px-0 d-none d-sm-flex">
+            <ul class="header-nav nav">
+
+              <li class="nav-item dropdown header-nav-dropdown">
+                <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+                    class="oi oi-grid-three-up"></span></a>
+                <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
+                  <div class="dropdown-arrow"></div>
+                  <div class="dropdown-sheets">
+                    <div class="dropdown-sheet-item">
+                      <a href="{% url '' %}" class="tile-wrapper"><span class="tile tile-lg bg-indigo"><i
+                            class="oi oi-people"></i></span> <span class="tile-peek">New
+                          Client</span></a>
+                    </div>
+                    <div class="dropdown-sheet-item">
+                      <a href="{% url '' %}" class="tile-wrapper"><span class="tile tile-lg bg-teal"><i
+                            class="oi oi-fork"></i></span> <span class="tile-peek">Savings
+                          Account Opening</span></a>
+                    </div>
+                    <div class="dropdown-sheet-item">
+                      <a href="{% url '' %}" class="tile-wrapper"><span class="tile tile-lg bg-pink"><i
+                            class="fa fa-tasks"></i></span> <span class="tile-peek">Deposit Account Opening</span></a>
+                    </div>
+                    <div class="dropdown-sheet-item">
+                      <a href="{% url '' %}" class="tile-wrapper"><span class="tile tile-lg bg-yellow"><i
+                            class="oi oi-fire"></i></span> <span class="tile-peek">Loan
+                          Account Opening</span></a>
+                    </div>
+                    <div class="dropdown-sheet-item">
+                      <a href="{% url '' %}" class="tile-wrapper"><span class="tile tile-lg bg-cyan"><i
+                            class="oi oi-document"></i></span> <span class="tile-peek">My
+                          Collection</span></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="dropdown d-flex">
+              <button class="btn-account d-none d-md-flex" type="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"><span class="user-avatar user-avatar-md"><img
+                    src="{% static 'assets/images/avatars/profile.jpg' %}" alt=""></span> <span
+                  class="account-summary pr-lg-4 d-none d-lg-block"><span class="account-name">{{ user_full_name
+                    }}</span> <span class="account-description">
+                    {{ login_samity_name }} </span></span></button>
+              <div class="dropdown-menu">
+                <div class="dropdown-arrow ml-3"></div>
+                <h6 class="dropdown-header d-none d-md-block d-lg-none"> {{ user_full_name }} </h6><a
+                  class="dropdown-item" href="{% url 'appauth-reset-password' %}"><span
+                    class="dropdown-icon oi oi-person"></span> Reset My Password </a> <a class="dropdown-item"
+                  href="{% url 'appauth-logout' %}"><span class="dropdown-icon oi oi-account-logout"></span> Logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside class="app-aside app-aside-expand-md app-aside-light">
+      <div class="aside-content">
+        <header class="aside-header d-block d-md-none">
+          <button class="btn-account" type="button" data-toggle="collapse" data-target="#dropdown-aside"><span
+              class="user-avatar user-avatar-lg"><img src="{% static 'assets/images/avatars/profile.jpg' %}"
+                alt=""></span> <span class="account-icon"><span class="fa fa-caret-down fa-lg"></span></span> <span
+              class="account-summary"><span class="account-name">{{ user_full_name }}</span> <span
+                class="account-description"> {{ user_designation }}</span></span></button> <!-- /.btn-account -->
+          <div id="dropdown-aside" class="dropdown-aside collapse">
+            <div class="pb-3">
+              <a class="dropdown-item" href="{% url 'appauth-reset-password' %}"><span
+                  class="dropdown-icon oi oi-person"></span> Reset My Password </a> <a class="dropdown-item"
+                href="{% url 'appauth-logout' %}"><span class="dropdown-icon oi oi-account-logout"></span> Logout</a>
+            </div>
+          </div>
+        </header>
+        <div class="aside-menu overflow-hidden">
+          <nav id="stacked-menu" class="stacked-menu">
+            <ul class="menu">
+              <li class="menu-item has-active">
+                <a href="{% url 'appauth-dashboard' %}" class="menu-link"><span class="menu-icon fas fa-home"></span>
+                  <span class="menu-text">Dashboard</span></a>
+              </li>
+              <li class="menu-item has-child">
+                <a href="#" class="menu-link"><span class="menu-icon oi oi-browser"></span> <span
+                    class="menu-text">Students</span>
+                </a>
+                <ul class="menu">
+                  <li class="menu-item">
+                    <!-- <a href="{% url '' %}" class="menu-link">Add New Student</a> -->
+                  </li>
+
+                 
+                  <li class="menu-item">
+                    <a href="{% url 'edu-academic-year-createlist' %}" class="menu-link">Manage Academic_Year</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'edu-academic-class-createlist' %}" class="menu-link">Manage Academic_Class</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'edu-academic-class-group-createlist' %}" class="menu-link">Manage Academic-Class-Group</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'edu-section-createlist' %}" class="menu-link">Manage Section</a>
+                  </li>
+                  
+                  <li class="menu-item">
+                    <a href="{% url 'edu-subject-createlist' %}" class="menu-link">Manage subject</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-subject-list-createlist' %}" class="menu-link">Manage subject-List</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-department-info-createlist' %}" class="menu-link">Manage Department-info</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-shift-info-createlist' %}" class="menu-link">Manage Shift-info</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-degree-info-createlist' %}" class="menu-link">Manage degree-info</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-occupation-info-createlist' %}" class="menu-link"> Occupation-info</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-institute-createlist' %}" class="menu-link"> Education Institute</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-student-info-createlist' %}" class="menu-link"> Student Information</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-student-addmission-createlist' %}" class="menu-link"> Student Addmission</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-result-grade-createlist' %}" class="menu-link"> Student result-grade</a>
+                  </li>
+
+                   <li class="menu-item">
+                    <a href="{% url 'edu-Exam-Type-createlist' %}" class="menu-link"> Student exam-type</a>
+                  </li>
+
+                   <li class="menu-item">
+                    <a href="{% url 'edu-Exam-setup-createlist' %}" class="menu-link"> Student exam-setup</a>
+                  </li>
+
+
+                   <li class="menu-item">
+                    <a href="{% url 'edu-Mark-details-createlist' %}" class="menu-link"> Student mark-details</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'edu-final-exam-mark-createlist' %}" class="menu-link"> Student final-exam-mark</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-student-info-filterlist' %}" class="menu-link">Inter exam mark</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url 'edu-final-mark-info-filterlist' %}" class="menu-link">Inter exam mark</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="{% url '' %}" class="menu-link">Student Client</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url '' %}" class="menu-link">Student Image Upload</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item has-child">
+                <a href="#" class="menu-link"><span class="menu-icon oi oi-browser"></span> <span
+                    class="menu-text">HRM</span>
+                </a>
+                <ul class="menu">
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-department-info' %}" class="menu-link">Add Deparment</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-designation-create' %}" class="menu-link">Create Designation</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-company-info-view' %}" class="menu-link">Add company</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-office-info-view' %}" class="menu-link">Add New Office</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-shift-info-view' %}" class="menu-link">Create Shift</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-emp-degree-info-view' %}" class="menu-link">Create employee Degree</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-type-create' %}" class="menu-link">Employee Type</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-salary-scale-create' %}" class="menu-link">Salary scale</a>
+                  </li>                  
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-salary-scale-details-create' %}" class="menu-link">Salary scale details</a>
+                  </li>                  
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-salary-bonus-create' %}" class="menu-link">Salary Bonus</a>
+                  </li>                 
+                   <li class="menu-item">
+                    <a href="{% url 'hrm-employee-extra-allownce-create' %}" class="menu-link">Extra allownce</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-bank-info-create' %}" class="menu-link">Bank Information</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-info-create' %}" class="menu-link">ADD Employee</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-experiance-info-create' %}" class="menu-link">Employee Experiance</a>
+                  </li>               
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-nominee-info-create' %}" class="menu-link">Employee Nominee</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-document-type-create' %}" class="menu-link">
+                      Document Type
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-document-info-create' %}" class="menu-link">Document Create</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-employee-leave-info-create' %}" class="menu-link">Leave Info</a>
+                  </li>                
+                    <li class="menu-item">
+                    <a href="{% url 'hrm-employee-leave-application-create' %}" class="menu-link">Leave application</a>
+                  </li>                 
+                   <li class="menu-item">
+                    <a href="{% url 'hrm-employee-training-info-create' %}" class="menu-link">Training Information</a>
+                  </li>                 
+
+                  <li class="menu-item">
+                    <a href="{% url 'hrm-pay-bill-info-create' %}" class="menu-link">Paybill</a>
+                  </li>
+                  
+                </ul>
+              </li>
+
+              <li class="menu-item has-child">
+                <a href="#" class="menu-link"><span class="menu-icon oi oi-browser"></span> <span
+                    class="menu-text">Settings</span>
+                </a>
+                <ul class="menu">
+                  <li class="menu-item">
+                    <a href="{% url 'appauth-branch-createlist' %}" class="menu-link">Manage Branch</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'appauth-country-createlist' %}" class="menu-link">Country Setup</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'appauth-division-createlist' %}" class="menu-link">Division Setup</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'appauth-district-createlist' %}" class="menu-link">District Setup</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'appauth-upozila-createlist' %}" class="menu-link">Upazila Setup</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="{% url 'appauth-union-createlist' %}" class="menu-link">Union Setup</a>
+                  </li>
+
+
+                  
+
+                </ul>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Model for Loading -->
+        <div class="modal ajaxProgress" id="page_loading" data-backdrop="static">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <h5>Please Wait ...</h5>
+                <img src="{% static 'assets/images/ajax/ajax-loader.gif' %}" alt="loading" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="aside-footer border-top p-2">
+          <button class="btn btn-light btn-block text-primary" data-toggle="skin">Night mode <i
+              class="fas fa-moon ml-1"></i></button>
+        </footer> 
+      </div>
+    </aside>
+
+    <main class="app-main">
+      <div class="wrapper">
+
+        {% block body %}
+
+        {% endblock body %}
+
+      </div>
+      <footer class="app-footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Support</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Help Center</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="text-muted" href="http://pearttechnology.com/contact-us" target="_blank">Terms of Service</a>
+          </li>
+        </ul>
+        <div class="copyright"> Copyright © <a href="http://pearttechnology.com/" target="_blank"> Peart Technology
+            Limited. </a>All right reserved. </div>
+      </footer>
+    </main>
+  </div>
+  <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/popper.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/pace/pace.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/stacked-menu/stacked-menu.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/flatpickr/flatpickr.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/easy-pie-chart/jquery.easypiechart.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/chart.js/Chart.min.js' %}"></script>
+  <script src="{% static 'assets/javascript/theme.min.js' %}"></script>
+  {% block js %}
+
+  {% endblock js %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116692175-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-116692175-1');
+  </script>
+
+  <script>
+    $(function () {
+
+      function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie != '') {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+              cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+              break;
+            }
+          }
+        }
+        return cookieValue;
+      }
+
+      var csrftoken = getCookie('csrftoken');
+
+      function csrfSafeMethod(method) {
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+      }
+      function sameOrigin(url) {
+        var host = document.location.host;
+        var protocol = document.location.protocol;
+        var sr_origin = '//' + host;
+        var origin = protocol + sr_origin;
+        return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+          (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+          !(/^(\/\/|http:|https:).*/.test(url));
+      }
+
+      $.ajaxSetup({
+        beforeSend: function (xhr, settings) {
+          if (!csrfSafeMethod(settings.type) && sameOrigin(settings.url)) {
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+          }
+        }
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>

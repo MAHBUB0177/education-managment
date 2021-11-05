@@ -1,0 +1,72 @@
+{% extends './finance-home.html' %}
+{% load static %}
+{% block title %}
+Ledger Balance | MicroFinance Solution
+{% endblock %}
+
+{% block body %}
+
+<body>
+  <!-- .app -->
+  <div class="app">
+    <div class="page">
+      <!-- .page-inner -->
+      <div class="page-inner">
+        <!-- .page-title-bar -->
+        <header class="page-title-bar">
+          <h3 align="center" class="page-title"> Ledger Balance</h3>
+        </header><!-- /.page-title-bar -->
+        <!-- .page-section -->
+        <div class="page-section">
+          <!-- .card -->
+          <div class="card card-fluid">
+            <!-- .card-body -->
+            <div class="card-body">
+              <!-- .table -->
+              <table id="dt-ledger-list" class="table dt-responsive nowrap w-100">
+                <thead>
+                  <tr>
+                    <th> Ledger Code </th>
+                    <th> Ledger Name </th>
+                    <th> Total Debit </th>
+                    <th> Total Credit </th>
+                    <th> Current Balance </th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <th> Ledger Code </th>
+                    <th> Ledger Name </th>
+                    <th> Total Debit </th>
+                    <th> Total Credit </th>
+                    <th> Current Balance </th>
+                  </tr>
+                </tfoot>
+              </table><!-- /.table -->
+            </div><!-- /.card-body -->
+          </div><!-- /.card -->
+        </div><!-- /.page-section -->
+      </div><!-- /.page-inner -->
+    </div><!-- /.page -->
+  </div><!-- .app-footer -->
+
+  <div class="modal fade" id="product_edit" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+    </div>
+  </div>
+</div>
+
+  {% endblock body %}
+
+  {% block js %}
+  <script src="{% static 'assets/vendor/datatables/jquery.dataTables.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/datatables/extensions/responsive/dataTables.responsive.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/datatables/extensions/responsive/responsive.bootstrap4.min.js' %}"></script>
+  <!-- END PLUGINS JS -->
+  <script src="{% static 'assets/javascript/pages/dataTables.bootstrap.js' %}"></script>
+  <script src="{% static 'assets/javascript/pages/finance/finance-ledger-balance.js' %}"></script>
+  <!-- END PAGE LEVEL JS -->
+
+  {% endblock %}
+</body>

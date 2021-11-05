@@ -1,0 +1,103 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Update Student Information</h4>
+	<div class="card">
+		<div class="card-body">
+			<div>
+				<form method="post" id="edit_form" data-url="{% url 'edu-student-info-edit' id %}" class="update-form">
+					{% csrf_token %}
+					<div class="form-row">
+						                    <div class="form-group col-md-4 mb-0">
+												{{ form.academic_year|as_crispy_field }}
+											</div>
+						                   <div class="form-group col-md-4 mb-0">
+												{{ form.branch_code|as_crispy_field }}
+											</div>
+											
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_reg|as_crispy_field }}
+											</div>
+												<div class="form-group col-md-4 mb-0">
+												{{ form.student_name|as_crispy_field }}
+											</div>
+
+											<div class="form-group col-md-4 mb-0">
+												{{ form.class_id|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.class_group_id|as_crispy_field }}
+											</div>
+											
+											<div class="form-group col-md-4 mb-0">
+												{{ form.shift_id|as_crispy_field }}
+											</div>
+												<div class="form-group col-md-4 mb-0">
+												{{ form.last_institute_id|as_crispy_field }}
+											</div>
+
+
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_type|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_father_name|as_crispy_field }}
+											</div>
+											
+											<div class="form-group col-md-4 mb-0">
+												{{ form.father_occupation_id|as_crispy_field }}
+											</div>
+												<div class="form-group col-md-4 mb-0">
+												{{ form.father_phone_number|as_crispy_field }}
+											</div>
+
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_mother_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.mother_occupation_id|as_crispy_field }}
+											</div>
+											
+											<div class="form-group col-md-4 mb-0">
+												{{ form.mother_phone_number|as_crispy_field }}
+											</div>
+												<div class="form-group col-md-4 mb-0">
+												{{ form.student_gender|as_crispy_field }}
+											</div>
+
+
+											
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_present_address|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_permanent_address|as_crispy_field }}
+											</div>
+											
+											<div class="form-group col-md-4 mb-0">
+												{{ form.student_phone|as_crispy_field }}
+											</div>
+												<div class="form-group col-md-4 mb-0">
+												{{ form.student_date_of_birth|as_crispy_field }}
+											</div>
+
+						
+						
+						
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+				<button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+			<div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="{% static 'assets/javascript/pages/common-submit-editdata.js' %}"></script>

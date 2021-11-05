@@ -1,0 +1,191 @@
+{% extends './finance-home.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+Create New User | MicroFinance Solution
+{% endblock %}
+
+{% block body %}
+
+<div class="col-lg-6">
+	{%if error_message %}
+	<div class="alert alert-danger alert-dismissible fade show">
+		<button type="button" class="close" data-dismiss="alert">×</button> <strong>Oh You made a mistake !</strong>
+		{{ error_message }}
+	</div>
+	{% endif %}
+</div><!-- /grid column -->
+
+<div class="col-lg-6">
+	{%if success_message %}
+	<div class="alert alert-success alert-dismissible fade show">
+		<button type="button" class="close" data-dismiss="alert">×</button> <strong>Well done!</strong>
+		{{ success_message }}
+	</div>
+	{% endif %}
+</div><!-- /grid column -->
+
+
+<div class="row">
+	<!-- grid column -->
+	<div class="col-lg-12">
+		<!-- .card -->
+		<div class="card card-fluid">
+			<!-- .card-body -->
+			<div class="card-body">
+				<div>
+					<!--form method="post" novalidate-->
+					<form method="post">
+						<div class="form-group">
+							<!-- .card -->
+							<div class="card">
+								<!-- .card-body -->
+								<div class="card-body">
+									<div class="form-row">
+										<div class="form-group col-md-10 mb-0">
+											<h3 class="card-title"> Create New User </h3><!-- form .needs-validation -->
+										</div>
+									</div>
+
+									<div>
+										<!--form method="post" novalidate-->
+										{% csrf_token %}
+										<div class="form-row">
+											<div class="form-group col-md-3 mb-0">
+												{{ form.user_phone_number|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.employee_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.app_user_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.branch_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.branch_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.somity_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.daily_credit_limit|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.daily_debit_limit|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.branch_manager|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.head_office_admin|as_crispy_field }}
+											</div>
+										</div>
+										<button class="btn btn-primary" type="submit">Create New User</button>
+										<div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div><!-- /.card-body -->
+			</div><!-- /.card -->
+		</div>
+		<!-- /grid column -->
+		<!-- grid column -->
+	</div>
+
+	{% endblock body %}
+
+
+	{% block js %}
+
+	<script>
+		$("#id_somity_code").on("change paste keyup", function () {
+			get_somity_name();
+		});
+
+		function get_somity_name() {
+			var somity_code = document.getElementById('id_somity_code').value;
+			$.ajax({
+				url: "/finance-somity-info/" + somity_code,
+				type: 'GET',
+				success: function (data) {
+					if (data.form_is_valid) {
+						$('#id_somity_name').val(data.somity_name);
+					} else {
+						$('#id_somity_name').val('');
+					}
+				}
+			})
+			return false;
+		}
+
+
+		$(document).ready(function () {
+			refresh_schema_list('');
+		});
+
+		function refresh_schema_list(app_user_name) {
+			var url = 'finance-choice-samitylist';
+			$.ajax({                       // initialize an AJAX request
+				url: url,                    // set the url of the request
+				data: {
+					'app_user_name': app_user_name       // add the id to the GET parameters
+				},
+				success: function (data) {   // `data` is the return of the view function
+					$("#id_somity_code").html(data);  // replace the values of the input with the data that came from the server
+				}
+			});
+			return false;
+		}
+
+		$("#id_branch_code").on("change paste keyup", function () {
+			get_branch_name();
+		});
+
+		function get_branch_name() {
+			var branch_code = document.getElementById('id_branch_code').value;
+			$.ajax({
+				url: "/finance-branch-info/" + branch_code,
+				type: 'GET',
+				success: function (data) {
+					if (data.form_is_valid) {
+						$('#id_branch_name').val(data.branch_name);
+					} else {
+						$('#id_branch_name').val('');
+					}
+				}
+			})
+			return false;
+		}
+
+		$("#id_user_phone_number").on("change paste keyup", function () {
+			get_employee_info();
+		});
+
+		function get_employee_info() {
+			var phone_number = document.getElementById('id_user_phone_number').value;
+			$.ajax({
+				url: "/finance-employee-info/" + phone_number,
+				type: 'GET',
+				success: function (data) {
+					if (data.form_is_valid) {
+						$('#id_employee_name').val(data.emp_name);
+						//$('#id_delar_phone_number').val(data.emp_mobile_num);
+					} else {
+						$('#id_emp_name').val('');
+						//$('#id_delar_phone_number').val('');
+					}
+				}
+			})
+			return false;
+		}
+
+
+	</script>
+	{% endblock %}
+	</body>

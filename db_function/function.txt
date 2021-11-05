@@ -1,0 +1,90 @@
+CREATE OR REPLACE FUNCTION fn_get_inventory_number (
+   p_inv_code       INTEGER,
+   p_branch_code    INTEGER,
+   p_inv_prefix     CHARACTER,
+   p_inv_naration   CHARACTER,
+   p_length         INTEGER DEFAULT 1)
+   RETURNS CHARACTER VARYING
+   LANGUAGE 'plpgsql'
+   VOLATILE
+   NOT LEAKPROOF
+   SECURITY INVOKER
+AS
+$$
+DECLARE
+   w_message              VARCHAR;
+   w_last_used_number     INTEGER;
+   w_return               VARCHAR;
+   w_inv_prefix           VARCHAR;
+   w_number_with_prefix   VARCHAR;
+   w_inv_length           INTEGER;
+BEGIN
+   BEGIN
+      SELECT last_used_number, inv_prefix, inv_length
+        INTO w_last_used_number, w_inv_prefix, w_inv_length
+        FROM appauth_inventory_number s
+       WHERE s.inv_code = p_inv_code AND s.branch_code = p_branch_code;
+
+      IF NOT FOUND
+      THEN
+         INSERT INTO appauth_inventory_number (inv_code,
+                                               branch_code,
+                                               app_user_id,
+                                               inv_prefix,
+                                               last_used_number,
+                                               inv_naration,
+                                               inv_length)
+              VALUES (p_inv_code,
+                      p_branch_code,
+                      NULL,
+                      P_inv_prefix,
+                      1,
+                      p_inv_naration,
+                      p_length);
+
+         w_last_used_number := 1;
+         w_inv_prefix := P_inv_prefix;
+         w_inv_length := p_length;
+      END IF;
+   EXCEPTION
+      WHEN NO_DATA_FOUND
+      THEN
+         INSERT INTO appauth_inventory_number (inv_code,
+                                               branch_code,
+                                               app_user_id,
+                                               inv_prefix,
+                                               last_used_number,
+                                               inv_naration,
+                                               inv_length)
+              VALUES (p_inv_code,
+                      p_branch_code,
+                      NULL,
+                      P_inv_prefix,
+                      0,
+                      p_inv_naration,
+                      p_length);
+
+         w_last_used_number := 0;
+         w_inv_prefix := P_inv_prefix;
+         w_inv_length := p_length;
+   END;
+
+   -- limit 100 for update;
+
+   UPDATE appauth_inventory_number s
+      SET last_used_number = last_used_number + 1
+    WHERE s.inv_code = p_inv_code AND s.branch_code = p_branch_code;
+
+   IF w_inv_length > 1
+   THEN
+      w_number_with_prefix :=
+            w_inv_prefix
+         || lpad (cast (w_last_used_number AS VARCHAR), w_inv_length, '0');
+      w_return := w_number_with_prefix;
+   ELSE
+      w_return := w_inv_prefix || w_last_used_number;
+   END IF;
+
+   RETURN w_return;
+END;
+$$

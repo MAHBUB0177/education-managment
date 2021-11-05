@@ -1,0 +1,9 @@
+/* put your own styles to customize and override the theme */
+#stacked-menu{
+    width: 250px;
+    height: 90%;
+    overflow-y: auto;
+}
+#stacked-menu a{
+    display: block;
+}

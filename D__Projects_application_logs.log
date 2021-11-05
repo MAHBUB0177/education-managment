@@ -1,0 +1,43 @@
+13-04-2021:17:57  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+13-04-2021:17:58  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+13-04-2021:17:58  WARNING  [django.request: 224]  Not Found: /{% static assets/javascript/pages/particles.json
+13-04-2021:17:58  WARNING  [django.request: 224]  Not Found: /favicon.ico
+13-04-2021:17:58  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+13-04-2021:17:59  WARNING  [django.request: 224]  Not Found: /{% static assets/javascript/pages/particles.json
+13-04-2021:18:09  WARNING  [django.request: 101]  Method Not Allowed (POST): /edu-Exam-Type-createlist
+13-04-2021:18:09  WARNING  [django.request: 224]  Method Not Allowed: /edu-Exam-Type-createlist
+13-04-2021:18:10  WARNING  [django.request: 101]  Method Not Allowed (POST): /edu-Exam-Type-createlist
+13-04-2021:18:10  WARNING  [django.request: 224]  Method Not Allowed: /edu-Exam-Type-createlist
+13-04-2021:18:13  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "/home/pikachu/Django/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pikachu/Django/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/pikachu/django-download/education1/edu/views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+13-04-2021:18:13  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "/home/pikachu/Django/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pikachu/Django/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/pikachu/django-download/education1/edu/views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+13-04-2021:18:13  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "/home/pikachu/Django/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pikachu/Django/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3.8/contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "/home/pikachu/django-download/education1/edu/views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero

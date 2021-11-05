@@ -1,0 +1,82 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Update Nominee Details</h4>
+	<!-- .card -->
+	<div class="card">
+		<!-- .card-body -->
+		<div class="card-body">
+			<div>
+				<!--form method="post" novalidate-->
+				<form method="post" id="edit_form" data-url="{% url 'finance-nominee-edit' id %}" class="update-form"> 
+					{% csrf_token %}
+					                       <div class="form-row">
+											<div class="form-item col-md-4 mb-0">
+												{{ form.client_id|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_serial|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_name|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_sex|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_father_name|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_mother_name|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_presnt_addr|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_permanent_addr|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_birth_date|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_nid_num|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_religion|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_blood_group|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_education|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_marital_status|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.nominee_mobile_num|as_crispy_field }}
+											</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+				<button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+			<div>
+			</div>
+		</div>
+	</div>
+	<!-- /.modal-content -->
+</div>
+
+<script src="{% static 'assets/javascript/pages/finance/finance-nominee-edit.js' %}"></script>
+
+
+
+
+
+

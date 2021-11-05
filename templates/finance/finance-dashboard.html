@@ -1,0 +1,242 @@
+{% extends './finance-home.html' %}
+{% load static %}
+
+{% block title %}
+Dashboard | MicroFinance Solution
+{% endblock %}
+
+{% block body %}
+
+<div class="page">
+  <!-- .page-inner -->
+  <div class="page-inner">
+
+    <!-- .section-block -->
+    <div class="section-block">
+      <!-- metric row -->
+      <div class="metric-row">
+        <!-- metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Total Client </h2>
+            <p class="metric-value h1">
+              <span class="value">{{ total_clients }} </span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Total Account </h2>
+            <p class="metric-value h1">
+              <span class="value">{{ total_account }} </span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <!-- metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Savings Account </h2>
+            <p class="metric-value h1">
+              <span class="value">{{ sb_account }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Loan Account </h2>
+            <p class="metric-value h1">
+              <span class="value">{{ ln_account }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> DPS(Recurringd) Account </h2>
+            <p class="metric-value h1">
+              <span class="value">{{ rd_account }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> FD(Fixed) Account </h2>
+            <p class="metric-value h1">
+              <span class="value">{{ fd_account }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <!-- metric column -->
+      </div><!-- /metric row -->
+    </div><!-- /.section-block -->
+
+    <!-- .section-block -->
+    <div class="section-block">
+      <!-- metric row -->
+      <div class="metric-row">
+        <!-- metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Outstanding Balance </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ total_balance }} </span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <!-- metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Savings Balance </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ sb_balance }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Loan Balance </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ ln_balance }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> DPS(Recurringd) Balance </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ rd_balance }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> FD(Fixed) Balance </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ fd_balance }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Today's Due Amount </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ total_installment_receivable }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Today's Receive Amount </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ total_installment_receive }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <div class="col">
+          <!-- .metric -->
+          <div class="metric metric-bordered">
+            <h2 class="metric-label"> Today's Charge Amount </h2>
+            <p class="metric-value h1">
+              <sup>৳</sup> <span class="value">{{ total_installment_charge }}</span>
+            </p>
+          </div><!-- /.metric -->
+        </div><!-- /metric column -->
+        <!-- metric column -->
+      </div><!-- /metric row -->
+    </div><!-- /.section-block -->
+
+    <div class='row'>
+
+      <!-- grid column -->
+      <div class="col-12 col-lg-12 col-xl-4">
+        <!-- .card -->
+        <div class="card card-fluid">
+          <!-- .card-body -->
+          <div class="card-body">
+            <h3 class="card-title mb-4"> Completion Tasks </h3>
+            <div class="chartjs" style="height: 292px">
+              <canvas id="completion-tasks"></canvas>
+            </div>
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /grid column -->
+
+      <!-- grid column -->
+      <div class="col-12 col-lg-12 col-xl-4">
+        <!-- .card -->
+        <div class="card card-fluid">
+          <!-- .card-body -->
+          <div class="card-body">
+            <h3 class="card-title mb-4"> Last Six Month Sales </h3>
+            <div class="chartjs" style="height: 292px">
+              <canvas id="sales-graph"></canvas>
+            </div>
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /grid column -->
+
+      <!-- grid column -->
+      <div class="col-12 col-lg-12 col-xl-4">
+        <!-- .card -->
+        <div class="card card-fluid">
+          <!-- .card-body -->
+          <div class="card-body">
+            <h3 class="card-title mb-4"> Completion Tasks </h3>
+            <div class="chartjs" style="height: 292px">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /grid column -->
+
+      <!-- grid column -->
+      <div class="col-12 col-lg-12 col-xl-4">
+        <!-- .card -->
+        <div class="card card-fluid">
+          <!-- .card-body -->
+          <div class="card-body">
+            <h3 class="card-title mb-4"> Completion Tasks </h3>
+            <div class="chartjs" style="height: 292px">
+              <canvas id="myChart2"></canvas>
+            </div>
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /grid column -->
+
+      <!-- grid column -->
+      <div class="col-12 col-lg-12 col-xl-4">
+        <!-- .card -->
+        <div class="card card-fluid">
+          <!-- .card-body -->
+          <div class="card-body">
+            <h3 class="card-title mb-4"> StockSales Tasks </h3>
+            <div class="chartjs" style="height: 292px">
+              <canvas id="StockSales"></canvas>
+            </div>
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /grid column -->
+    </div>
+  </div>
+
+</div>
+
+{% endblock body %}
+
+{% block js %}
+
+<script src="{% static 'assets/javascript/pages/dashboard-demo.js' %}"></script> <!-- END PAGE LEVEL JS -->
+{% endblock %}
+</body>

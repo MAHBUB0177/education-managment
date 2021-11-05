@@ -1,0 +1,82 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Update Guarantor Details</h4>
+	<!-- .card -->
+	<div class="card">
+		<!-- .card-body -->
+		<div class="card-body">
+			<div>
+				<!--form method="post" novalidate-->
+				<form method="post" id="edit_form" data-url="{% url 'finance-guarantor-edit' id %}" class="update-form"> 
+					{% csrf_token %}
+					                       <div class="form-row">
+											<div class="form-item col-md-4 mb-0">
+												{{ form.client_id|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_serial|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_name|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_sex|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_father_name|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_mother_name|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_presnt_addr|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_permanent_addr|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_birth_date|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_nid_num|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_religion|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_blood_group|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_education|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_marital_status|as_crispy_field }}
+											</div>
+											<div class="form-item col-md-4 mb-0">
+												{{ form.guarantor_mobile_num|as_crispy_field }}
+											</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+				<button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+			<div>
+			</div>
+		</div>
+	</div>
+	<!-- /.modal-content -->
+</div>
+
+<script src="{% static 'assets/javascript/pages/finance/finance-guarantor-edit.js' %}"></script>
+
+
+
+
+
+

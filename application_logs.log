@@ -1,0 +1,1492 @@
+12-04-2021:23:04  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+12-04-2021:23:04  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+12-04-2021:23:04  WARNING  [django.request: 224]  Not Found: /appauth/{% static assets/javascript/pages/particles.json
+14-04-2021:00:34  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:00:35  WARNING  [django.request: 224]  Not Found: /appauth/{% static assets/javascript/pages/particles.json
+14-04-2021:00:35  WARNING  [django.request: 224]  Not Found: /favicon.ico
+14-04-2021:00:36  WARNING  [django.request: 224]  Not Found: /appauth/{% static assets/javascript/pages/particles.json
+14-04-2021:00:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:14:08  WARNING  [django.request: 224]  Not Found: /appauth/{% static assets/javascript/pages/particles.json
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:08  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:09  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-student-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1410, in edu_insert_student_mark
+    exam_mark.result_grade=result_grade[0]
+  File "D:\venv_django\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+14-04-2021:14:09  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-student-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1399, in edu_insert_student_mark
+    exam_mark.result_grade=result_grade[0].grade_name
+  File "D:\venv_django\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+14-04-2021:14:09  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-student-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1399, in edu_insert_student_mark
+    exam_mark.result_grade=result_grade[0].grade_name
+  File "D:\venv_django\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+14-04-2021:14:09  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-student-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1410, in edu_insert_student_mark
+    exam_mark.result_grade=result_grade[0]
+  File "D:\venv_django\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+14-04-2021:14:09  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-student-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1410, in edu_insert_student_mark
+    exam_mark.result_grade=result_grade[0]
+  File "D:\venv_django\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+14-04-2021:14:10  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-student-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1410, in edu_insert_student_mark
+    exam_mark.result_grade=result_grade[0]
+  File "D:\venv_django\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+14-04-2021:14:43  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:14:43  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+14-04-2021:15:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:08  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:08  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:08  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:08  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:09  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:09  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:10  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:10  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:10  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:10  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:10  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:10  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:10  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:10  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:11  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:11  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:11  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:11  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:16  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:17  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:17  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:17  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:17  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:17  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:17  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:17  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:17  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:17  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:18  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:18  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:18  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:18  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:18  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:18  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:20  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:20  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:20  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:20  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:22  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:22  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:22  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:22  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:22  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:22  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:23  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:23  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:23  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:23  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:23  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:23  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:25  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:25  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:26  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:26  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:36  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:36  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:36  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:36  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:36  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:36  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:37  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:37  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:43  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:43  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:43  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:43  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:43  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:43  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:43  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:43  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:43  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:43  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:44  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:44  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:44  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:44  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:44  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:44  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:44  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:44  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:45  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:45  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:45  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:45  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:45  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:45  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:46  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:46  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:49  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:49  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:51  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:51  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:51  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:51  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:56  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:56  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:56  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:56  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:56  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:56  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:56  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:56  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:56  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:56  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:56  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:56  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:57  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:57  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:57  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:57  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:15:57  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\views.py changed, reloading.
+14-04-2021:15:57  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:06  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:06  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:06  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:06  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:06  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:06  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:06  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:06  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:07  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:07  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:08  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:08  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:08  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:08  WARNING  [django.request: 224]  Not Found: /favicon.ico
+14-04-2021:16:09  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filtered
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1558, in edu_student_exam_filter_list
+    context['exams']=exam
+NameError: name 'exam' is not defined
+14-04-2021:16:11  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:11  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 63, in as_crispy_form
+    return template.render(c)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_utils.py", line 21, in render
+    return remove_spaces(self.nodelist.render(context).strip())
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 192, in render
+    return template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 172, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\defaulttags.py", line 305, in render
+    match = condition.eval(context)
+  File "D:\venv_django\lib\site-packages\django\template\defaulttags.py", line 889, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 12, in is_checkbox
+    return isinstance(field.field.widget, forms.CheckboxInput)
+AttributeError: 'BoundWidget' object has no attribute 'field'
+14-04-2021:16:13  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:13  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:15  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:15  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:16  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:16  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:17  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:17  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:19  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:20  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:21  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:21  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:21  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:24  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:25  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:25  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:25  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:28  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:28  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:29  ERROR    [django.request: 224]  Internal Server Error: /edu-student-exam-filterlist
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\venv_django\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\projects\education1\edu\views.py", line 1522, in get
+    return render(request, self.template_name, context)
+  File "D:\venv_django\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\venv_django\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\venv_django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\venv_django\lib\site-packages\django\template\base.py", line 698, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "D:\venv_django\lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py", line 101, in as_crispy_field
+    raise CrispyError("|as_crispy_field got passed an invalid or inexistent field")
+crispy_forms.exceptions.CrispyError: |as_crispy_field got passed an invalid or inexistent field
+14-04-2021:16:34  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\forms.py changed, reloading.
+14-04-2021:16:34  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:38  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+14-04-2021:16:40  INFO     [django.utils.autoreload: 240]  D:\projects\education1\edu\urls.py changed, reloading.
+14-04-2021:16:40  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+15-04-2021:21:50  INFO     [django.utils.autoreload: 617]  Watching for file changes with StatReloader
+15-04-2021:21:50  WARNING  [django.request: 224]  Not Found: /appauth/{% static assets/javascript/pages/particles.json
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:51  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:53  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero
+15-04-2021:21:53  ERROR    [django.request: 224]  Internal Server Error: /edu-insert-final-mark
+Traceback (most recent call last):
+  File "D:\venv_django\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\venv_django\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Asus\AppData\Local\Programs\Python\Python38-32\lib\contextlib.py", line 75, in inner
+    return func(*args, **kwds)
+  File "D:\projects\education1\edu\views.py", line 1480, in edu_finalmark_show
+    percent=(float(obtain_marks)/float(total_marks))*100
+ZeroDivisionError: float division by zero

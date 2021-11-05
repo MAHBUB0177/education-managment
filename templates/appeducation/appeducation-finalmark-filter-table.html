@@ -1,0 +1,29 @@
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Roll</th>
+        <th>Registration</th>
+        <th>Group</th>
+        <th>Class</th>
+        <th>Total Mark</th>
+        <th>Obtain Mark</th>
+        <th>Grade Point</th>
+        <th>Grade</th>
+        <th>Action</th>
+    </tr>
+    {% for student in students %}
+        <tr>
+            <td>{{ student.student_name }}</td>
+            <td>{{ student.student_roll }}</td>
+            <td>{{ student.student_reg }}</td>
+            <td>{{ student.class_group_id }}</td>
+            <td>{{ student.class_id }}</td>
+            <td><span class="total_mark_intable" id="total_mark{{student.student_roll}}">{{student.total_exam_marks}}</span></td>
+            <td><span id="obtain_mark_inroll{{student.student_roll}}">{{student.obtain_marks}}</span></td>
+            <td><span id="grade_point_inroll{{student.student_roll}}" >{{student.grade_point_average}}</span></td>
+            <td><span id="grade_inroll{{student.student_roll}}">{{student.result_grade}}</span></td>
+            <td><button class="btn btn-primary" onclick='filtering_finalMarks("{{student.student_roll}}")'>Final Marks</button></td>
+        </tr>
+    {% endfor %}
+</table>

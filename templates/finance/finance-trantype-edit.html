@@ -1,0 +1,67 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Update Transaction Type Settings</h4>
+	<!-- .card -->
+	<div class="card">
+		<!-- .card-body -->
+		<div class="card-body">
+			<div>
+				<!--form method="post" novalidate-->
+				<form method="post" id="edit_form" data-url="{% url 'finance-trantype-edit' id %}" class="update-form">
+					{% csrf_token %}
+					<div class="form-row">
+					<div class="form-group col-md-4 mb-0">
+												{{ form.tran_type_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.tran_type_code|as_crispy_field }}
+											</div>
+											<div class="form-group ccol-md-4 mb-0">
+												{{ form.credit_gl_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.credit_gl_name|as_crispy_field }}
+											</div>
+											<div class="form-group ccol-md-4 mb-0">
+												{{ form.debit_gl_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.debit_gl_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.transaction_screen|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.tran_type_status|as_crispy_field }}
+											</div> 
+											<div class="form-group col-md-4 mb-0">
+												{{ form.default_debit_credit|as_crispy_field }}
+											</div> 
+											<div class="form-group col-md-3 mb-0">
+												{{ form.debit_allowed|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.credit_allowed|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-3 mb-0">
+												{{ form.phone_number_required|as_crispy_field }}
+											</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+				<button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+			<div>
+			</div>
+		</div>
+	</div>
+	<!-- /.modal-content -->
+</div>
+
+<script src="{% static 'assets/javascript/pages/finance/finance-trantype-edit.js' %}"></script>

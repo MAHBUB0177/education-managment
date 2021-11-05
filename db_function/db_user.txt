@@ -1,0 +1,17 @@
+CREATE ROLE "education"
+   PASSWORD 'education'
+   SUPERUSER
+   NOINHERIT
+   CREATEROLE
+   REPLICATION
+   LOGIN
+   CREATEDB;
+   
+GRANT postgres TO "education" WITH ADMIN OPTION
+
+CREATE SCHEMA education AUTHORIZATION education
+
+CREATE DATABASE "education"
+   OWNER = education
+   ENCODING = 'UTF8'
+   CONNECTION LIMIT = - 1

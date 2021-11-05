@@ -1,0 +1,4 @@
+<option value="">-- Select Schema --</option>
+{% for schema in dep_schema_list %}
+<option value="{{ schema.deposit_schedule_code }}">{{ schema.deposit_schedule_name }}</option>
+{% endfor %}

@@ -1,0 +1,52 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Photo and Signature</h4>
+	<!-- .card -->
+	<div class="card">
+		<!-- .card-body -->
+		<div class="card-body">
+			<div>
+                <div class="row">
+                  <!-- grid column -->
+                  <div class="col-xl-6 col-lg-6 col-sm-6">
+                    <!-- .card -->
+                    <div class="card card-figure">
+                      <!-- .card-figure -->
+                      <figure class="figure">
+                        <img class="img-fluid" src="client_photo" id="imagepreview" alt="Card image cap"> <!-- .figure-caption -->
+						<!--{{ user_full_name }}  src="static/assets/images/avatars/profile.jpg"  -->
+                        <figcaption class="figure-caption">
+                          <h6 class="figure-title"> Photo </h6>
+                        </figcaption><!-- /.figure-caption -->
+                      </figure><!-- /.card-figure -->
+                    </div><!-- /.card -->
+                  </div><!-- /grid column -->
+                  <!-- grid column -->
+                  <div class="col-xl-6 col-lg-6 col-sm-6">
+                    <!-- .card -->
+                    <div class="card card-figure">
+                      <!-- .card-figure -->
+                      <figure class="figure">
+                        <img class="img-fluid" src="client_signature" alt="Card image cap"> <!-- .figure-caption -->
+                        <figcaption class="figure-caption">
+                          <h6 class="figure-title"> Signature Card </h6>
+                        </figcaption><!-- /.figure-caption -->
+                      </figure><!-- /.card-figure -->
+                    </div><!-- /.card -->
+                  </div><!-- /grid column -->
+				  </div><!-- /grid row -->
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+			</div>
+			<div>
+			</div>
+		</div>
+	</div>
+	<!-- /.modal-content -->
+</div>

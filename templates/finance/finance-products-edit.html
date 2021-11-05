@@ -1,0 +1,115 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<div class="modal-header"> </div>
+{% csrf_token %}
+<div class="container">
+	<h4 align="center">Update Product Parameter</h4>
+	<!-- .card -->
+	<div class="card">
+		<!-- .card-body -->
+		<div class="card-body">
+			<div>
+				<!--form method="post" novalidate-->
+				<form method="post" id="edit_form" data-url="{% url 'finance-products-edit' id %}" class="update-form">
+					{% csrf_token %}
+					<div class="form-row">
+											<div class="form-group col-md-4 mb-0">
+												{{ form.products_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.products_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.products_type|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.installment_frequency|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.day_of_frequency|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.installment_miss_chg_on|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.installment_miss_chg_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.charge_after_inst_due|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.int_simple_compound|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.simple_compound_freq|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_rate|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_calc_freq|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_balance_on|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_pay_freq|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_calculation_day|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.account_age_forintapppl_day|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.product_mat_day|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.product_ledger_code|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.product_ledger_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_receivable_ledger|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_receivable_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_payable_ledger|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.interest_payable_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.income_ledger|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.income_ledger_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.expense_ledger|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.expense_ledger_name|as_crispy_field }}
+											</div>
+											<div class="form-group col-md-4 mb-0">
+												{{ form.products_comments|as_crispy_field }}
+											</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-default pull-right" data-dismiss="modal">Close</button>
+				<button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+			</div>
+			</form>
+			<div>
+			</div>
+		</div>
+	</div>
+	<!-- /.modal-content -->
+</div>
+
+<script src="{% static 'assets/javascript/pages/finance/finance-products-edit.js' %}"></script>
